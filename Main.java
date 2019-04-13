@@ -6,12 +6,11 @@ public class Main {
 
     public static void main(String[] args) {
         TreeMap TreeMap = new TreeMap<TelephoneNumber,Record>();
-        Record buf;
         TreeMap.put(new TelephoneNumber("+48","123456789"),
                 new Person("Adam","Pierwszy","Przedecz","+48","123456789"));
         TreeMap.put(new TelephoneNumber("+48","999999999"),
                 new Person("Adam","Drugi","Pieklo","+48","999999999"));
-        TreeMap.put(new TelephoneNumber("+48","969696960"),
+        TreeMap.put(new TelephoneNumber("+48","969111960"),
                 new Person("Ewa","Pierwsza","Ziemia","+48","789963258"));
         TreeMap.put(new TelephoneNumber("+48","969696960"),
                 new Business("Gates of Eden","Center of the Milky Way","+11","2358_13_21"));
