@@ -11,8 +11,8 @@ public class Main {
         TreeMap.put(new TelephoneNumber("+48","999999999"),
                 new Person("Adam","Drugi","Pieklo","+48","999999999"));
         TreeMap.put(new TelephoneNumber("+48","969111960"),
-                new Person("Ewa","Pierwsza","Ziemia","+48","789963258"));
-        TreeMap.put(new TelephoneNumber("+48","969696960"),
+                new Person("Ewa","Pierwsza","Ziemia","+48","969111960"));
+        TreeMap.put(new TelephoneNumber("+48","2358_13_21"),
                 new Business("Gates of Eden","Center of the Milky Way","+11","2358_13_21"));
         Collection collection = TreeMap.values();
         Iterator itr = collection.iterator();
